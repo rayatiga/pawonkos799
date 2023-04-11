@@ -1,2 +1,2 @@
 # pawonkos799
-Pawonkos799 site for static and vanilla website 🌶️
+Pawonkos799 site for static website 🌶️
