@@ -12,12 +12,15 @@
     background: rgba(255, 0, 0, 0.1) fixed;
 } */
 html body {
-    --dark: #212529;
-    --light: #f8f9fa;
     font-family: 'Work Sans-Local', sans-serif;
 }
 body::-webkit-scrollbar {
     display: none;
+}
+header, main {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 #scrollTop {
     opacity: 0;
@@ -25,11 +28,12 @@ body::-webkit-scrollbar {
     bottom: 20px;
     z-index: 99;
     position: fixed;
-    padding: 5px 10px;
+    color: #ff5100;
+    padding: 3px 8px;
     transition: 500ms all;
-    background: white;
-    border: 1px solid #212529;
-    outline: 2px solid white;
+    background: #ffffff;
+    border: 1px solid #ff5100;
+    outline: 3px solid #ffffff;
 }
 .header-100vh {
     height: 100vh !important;
@@ -55,4 +59,16 @@ body::-webkit-scrollbar {
 .color-testimonial {
     color: #ff5100;
     text-shadow: -1px 1px 1px #f8f9fa, 1px 1px 1px #f8f9fa, 1px -1px 1px #f8f9fa, -1px -1px 1px #f8f9fa;
+}
+.acrylic-bg {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
