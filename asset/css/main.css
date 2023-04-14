@@ -11,16 +11,28 @@
     outline: 1px solid #000000;
     background: rgba(255, 0, 0, 0.1) fixed;
 } */
+*::selection {
+    color: #000000 !important;
+    background-color: #ff5100 !important;
+}
 html body {
     font-family: 'Work Sans-Local', sans-serif;
 }
 body::-webkit-scrollbar {
     display: none;
 }
-header, main {
+header,
+main {
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+}
+a.contactFooter {
+    color: #ff5100 !important;
+}
+/* Root */
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 153, 0, 0.25) !important;
 }
 #scrollTop {
     opacity: 0;
@@ -35,16 +47,34 @@ header, main {
     border: 1px solid #ff5100;
     outline: 3px solid #ffffff;
 }
+.bg-pwk {
+    color: #ffffff !important;
+    background-color: #ff5100 !important;
+}
+.color-pwk {
+    color: #ff5100 !important;
+}
 .header-100vh {
     height: 100vh !important;
     padding-top: 73px !important;
 }
+.header-50vh {
+    height: 50vh !important;
+    padding-top: 73px !important;
+}
 .hero-title {
     color: #ff5100;
-    text-shadow: -1px 1px 1px #f8f9fa, 1px 1px 1px #f8f9fa, 1px -1px 1px #f8f9fa, -1px -1px 1px #f8f9fa;
+    text-shadow: -1px 1px 1px #ffffff, 1px 1px 1px #ffffff, 1px -1px 1px #ffffff, -1px -1px 1px #ffffff;
 }
 .background-home {
     height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(100, 100, 100, 0.3), rgba(100, 100, 100, 0.3)), url(/asset/image/hero.jpg);
+}
+.background-shop {
+    height: 50vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,11 +88,19 @@ header, main {
 }
 .color-testimonial {
     color: #ff5100;
-    text-shadow: -1px 1px 1px #f8f9fa, 1px 1px 1px #f8f9fa, 1px -1px 1px #f8f9fa, -1px -1px 1px #f8f9fa;
+    text-shadow: -1px 1px 1px #ffffff, 1px 1px 1px #ffffff, 1px -1px 1px #ffffff, -1px -1px 1px #ffffff;
 }
 .acrylic-bg {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(5px);
+}
+.searchBox {
+    width: 30em !important;
+}
+@media (max-width: 768px) {
+    .searchBox {
+        width: 100% !important;
+    }
 }
 @keyframes fadeIn {
     from {
