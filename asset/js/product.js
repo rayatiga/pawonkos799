@@ -127,15 +127,19 @@ var responsiveProductList = document.querySelectorAll('.responsiveProductList')
 if (responsiveProductList) {
     window.onresize = function () {
         if (window.innerWidth <= 352) {
-            responsiveProductList[0].classList.add('row-cols-1')
-            responsiveProductList[0].classList.remove('row-cols-2')
+            if (responsiveProductList[0]) {
+                responsiveProductList[0].classList.add('row-cols-1')
+                responsiveProductList[0].classList.remove('row-cols-2')
+            }
             if (responsiveProductList[1]) {
                 responsiveProductList[1].classList.add('row-cols-1')
                 responsiveProductList[1].classList.remove('row-cols-2')
             }
         } else {
-            responsiveProductList[0].classList.add('row-cols-2')
-            responsiveProductList[0].classList.remove('row-cols-1')
+            if (responsiveProductList[0]) {
+                responsiveProductList[0].classList.add('row-cols-2')
+                responsiveProductList[0].classList.remove('row-cols-1')
+            }
             if (responsiveProductList[1]) {
                 responsiveProductList[1].classList.add('row-cols-2')
                 responsiveProductList[1].classList.remove('row-cols-1')
