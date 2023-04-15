@@ -73,7 +73,7 @@ a.contactFooter {
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(100, 100, 100, 0.3), rgba(100, 100, 100, 0.3)), url(/asset/image/hero.jpg);
 }
-.background-shop {
+.background-header {
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -93,6 +93,10 @@ a.contactFooter {
 .acrylic-bg {
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(5px);
+}
+.acrylic-bg-hero {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
 }
 .searchBox {
     width: 30em !important;
