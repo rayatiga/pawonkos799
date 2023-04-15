@@ -225,7 +225,7 @@ if (listFeaturedProducts[0] || listFeaturedProducts[1]) {
                                 <div class="card h-100">
                                     <img src="${currFeaturedArray[i].image}" class="card-img-top" alt="${currFeaturedArray[i].name}" />
                                     <div class="card-body">
-                                        <h5 class="card-title fs-6 mb-1">${currFeaturedArray[i].name}</h5>
+                                        <h5 class="card-title fs-6 mb-1 text-capitalize">${currFeaturedArray[i].name}</h5>
                                         <p class="card-text">
                                             ${currFeaturedArray[i].rating > 4.5 ? `<i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i> ${currFeaturedArray[i].rating.toFixed(1)}<br />` : `<i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-half text-warning"></i> ${currFeaturedArray[i].rating}<br />`}
                                             <s class="text-secondary small">Rp.&nbsp;${currFeaturedArray[i].priceOriginal.toLocaleString()}</s> Rp.&nbsp;${currFeaturedArray[i].priceDisc.toLocaleString()}
@@ -242,7 +242,7 @@ if (listFeaturedProducts[0] || listFeaturedProducts[1]) {
                                 <div class="card h-100">
                                     <img src="${currFeaturedArray[i].image}" class="card-img-top" alt="${currFeaturedArray[i].name}" />
                                     <div class="card-body">
-                                        <h5 class="card-title fs-6 mb-1">${currFeaturedArray[i].name}</h5>
+                                        <h5 class="card-title fs-6 mb-1 text-capitalize">${currFeaturedArray[i].name}</h5>
                                         <p class="card-text">
                                             ${currFeaturedArray[i].rating > 4.5 ? `<i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i> ${currFeaturedArray[i].rating.toFixed(1)}<br />` : `<i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-fill text-warning"></i><i class="icon icon-star-half text-warning"></i> ${currFeaturedArray[i].rating}<br />`}
                                             <s class="text-secondary small">Rp.&nbsp;${currFeaturedArray[i].priceOriginal.toLocaleString()}</s> Rp.&nbsp;${currFeaturedArray[i].priceDisc.toLocaleString()}
