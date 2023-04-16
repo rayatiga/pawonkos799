@@ -54,6 +54,16 @@ a.contactFooter {
 .color-pwk {
     color: #ff5100 !important;
 }
+.border-pwk {
+    border: 1px solid #ff5100 !important;
+}
+.link-pwk {
+    color: #212529 !important;
+}
+.link-pwk:hover {
+    color: #ffffff !important;
+    background-color: #ff5100 !important;
+}
 .header-100vh {
     height: 100vh !important;
     padding-top: 73px !important;
@@ -80,6 +90,9 @@ a.contactFooter {
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(100, 100, 100, 0.3), rgba(100, 100, 100, 0.3)), url(/asset/image/hero.jpg);
 }
+.vh-screen-header {
+    min-height: calc(100vh - 50vh - 273.75px);
+}
 .card-image {
     background-size: cover;
     background-position: center;
@@ -93,10 +106,6 @@ a.contactFooter {
 .acrylic-bg {
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(5px);
-}
-.acrylic-bg-hero {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4px);
 }
 .searchBox {
     width: 30em !important;
