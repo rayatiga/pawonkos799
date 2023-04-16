@@ -15,14 +15,12 @@
         <script defer type="text/javascript" src="/asset/js/angular.min.js"></script>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     </head>
-    <body class="min-vh-100">
+    <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary border fixed-top" id="navBar"></nav>
         <header class="background-header">
-            <div class="acrylic-bg-hero">
-                <div class="container d-flex header-50vh d-flex flex-column justify-content-center align-items-center text-center">
-                    <h1 class="display-4 fw-semibold hero-title">Belanja.</h1>
-                    <p class="px-2 acrylic-bg fw-medium text-light rounded-2">Temukan produk terbaik kami untuk kamu nikmati, 100% bahan alami!</p>
-                </div>
+            <div class="container d-flex header-50vh d-flex flex-column justify-content-center align-items-center text-center">
+                <h1 class="display-4 fw-semibold hero-title">Belanja.</h1>
+                <p class="px-2 acrylic-bg fw-medium text-light rounded-2">Temukan produk terbaik kami untuk kamu nikmati, 100% bahan alami!</p>
             </div>
         </header>
         <main>
@@ -35,7 +33,7 @@
                             <button class="btn bg-pwk px-3" type="button" id="button-addon2"><i class="icon icon-search"></i></button>
                         </div>
                     </div>
-                    <div class="responsiveProductList row row-cols-2 row-cols-lg-4 g-4" style="transition: 1s all;" id="listProducts"></div>
+                    <div class="responsiveProductList row row-cols-2 row-cols-lg-4 g-4" id="listProducts"></div>
                     <span class="text-center mt-5 fw-medium" id="notFound" style="display: none">Produk tidak ditemukan.</span>
                 </div>
             </section>
