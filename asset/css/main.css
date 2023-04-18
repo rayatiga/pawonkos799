@@ -1,10 +1,6 @@
 @font-face {
-    font-family: 'Work Sans-Local';
+    font-family: 'Work Sans';
     src: url(../font/work-sans.ttf);
-}
-@font-face {
-    font-family: 'Source Code Pro-Local';
-    src: url(../font/source-code-pro.ttf);
 }
 /* #AIM-FOR-DEBUGGING,
 * {
@@ -16,7 +12,7 @@
     background-color: #ff5100 !important;
 }
 html body {
-    font-family: 'Work Sans-Local', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 body::-webkit-scrollbar {
     display: none;
@@ -81,14 +77,14 @@ a.contactFooter {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(100, 100, 100, 0.3), rgba(100, 100, 100, 0.3)), url(/asset/image/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/asset/image/hero.jpg);
 }
 .background-header {
     height: 50vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(100, 100, 100, 0.3), rgba(100, 100, 100, 0.3)), url(/asset/image/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/asset/image/hero.jpg);
 }
 .vh-screen-header {
     min-height: calc(100vh - 50vh - 273.75px);
