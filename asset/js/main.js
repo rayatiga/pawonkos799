@@ -72,7 +72,6 @@ if (isMaintenance) {
     }
 }
 
-
 var uri = document.getElementById('uri')
 if (uri) {
     uri.innerHTML = window.location.href
