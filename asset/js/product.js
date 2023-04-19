@@ -1,5 +1,4 @@
 let filterArray = []
-
 let productsArray = [
     {
         id: 1,
