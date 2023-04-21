@@ -15,6 +15,7 @@
         <script defer type="text/javascript" src="/asset/js/angular.min.js"></script>
         <script defer src="/asset/js/nov.js"></script>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="manifest" href="/manifest.json">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary border fixed-top" id="navBar"></nav>
@@ -157,5 +158,10 @@
             <button id="scrollTop" class="rounded-1" onclick="scrollTopAction()"><i class="icon icon-arrow-up-square-fill"></i></button>
         </main>
         <footer class="border" id="footer"></footer>
+        <script>
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/sw.js', { scope: '/' })
+            }
+        </script>
     </body>
 </html>
