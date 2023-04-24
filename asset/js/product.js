@@ -92,16 +92,6 @@ let productsArray = [
     },
     {
         id: 10,
-        name: "tuna suwir cabe ijo",
-        rating: 4.9,
-        priceOriginal: 52000,
-        priceDisc: 38900,
-        image: "/asset/image/product/tuna-suwir-cabe-ijo.jpg",
-        link: "https://shopee.co.id/Tuna-Suwir-Cabe-Ijo-by-pawonkos799-Halal-Pedas-Cabai-Hijau-Bergaransi-i.544649733.20766683219",
-        featured: false,
-    },
-    {
-        id: 11,
         name: "bundling 3 cumi seblak ikan",
         rating: 4.9,
         priceOriginal: 88000,
@@ -111,7 +101,7 @@ let productsArray = [
         featured: false,
     },
     {
-        id: 12,
+        id: 11,
         name: "batagor kuah free sosis",
         rating: 4.9,
         priceOriginal: 24700,
