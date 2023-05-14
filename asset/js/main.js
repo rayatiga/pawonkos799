@@ -45,7 +45,7 @@ if (footerBottom) {
     footerBottom.innerHTML = `
             <div class="container py-4">
                 <div class="row row-cols-1 row-cols-lg-3 g-4">
-                    <div class="col"><img src="/asset/image/pawonkos799-big-favicon.png" alt="Pawonkos799" width="50" /><span class="d-block fw-semibold fs-4">Pawonkos799</span><span class="d-block">Produk Pawonkos ini sangat mengedepankan cita rasa Nusantara. Semua Produk kami adalah produk handmade by order dan bergaransi!</span></div>
+                    <div class="col"><img src="/asset/image/pawonkos799-big-favicon.png" alt="Pawonkos799" width="50" /><span class="d-block fw-semibold fs-4">Pawonkos799</span><span class="d-block">Produk Pawonkos ini sangat mengedepankan cita rasa Nusantara. Semua Produk kami adalah produk handmade by order dan bergaransi.</span></div>
                     <div class="col"><span class="d-block fw-semibold fs-4">Pembelian Produk</span><img src="/asset/image/shopee-logo.png" alt="Bank Central Asia" width="75" class="d-block mt-2 mb-3" /><span class="fw-semibold">Checkout via Shopee</span><span class="d-block">Mulai 15 April 2023, seluruh pembelian dan transaksi dilakukan melalui Shopee (@pawonkos799).</span></div>
                     <div class="col">
                         <span class="d-block fw-semibold fs-4">Hubungi Kami</span><span class="d-block">Anda dapat menghubungi kami melalui beberapa opsi atau tautan di bawah.</span>
