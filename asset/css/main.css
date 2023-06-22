@@ -17,12 +17,12 @@ html body {
 body::-webkit-scrollbar {
     display: none;
 }
-header,
+/* header,
 main {
     animation-name: fadeIn;
-    animation-duration: 1s;
+    animation-duration: 250ms;
     animation-fill-mode: forwards;
-}
+} */
 a.contactFooter {
     color: #ff5100 !important;
 }
@@ -111,11 +111,11 @@ a.contactFooter {
         width: 100% !important;
     }
 }
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     from {
         opacity: 0;
     }
     to {
         opacity: 1;
     }
-}
+} */
