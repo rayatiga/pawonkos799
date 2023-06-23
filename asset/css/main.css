@@ -8,7 +8,7 @@
     background: rgba(255, 0, 0, 0.1) fixed;
 } */
 *::selection {
-    color: #000000 !important;
+    color: #ffffff !important;
     background-color: #ff5100 !important;
 }
 html body {
@@ -29,6 +29,9 @@ a.contactFooter {
 /* Root */
 .form-control:focus {
     box-shadow: 0 0 0 0.25rem rgba(255, 153, 0, 0.25) !important;
+}
+.no-header-overlap {
+    scroll-margin-top: 72px !important;
 }
 #scrollTop {
     opacity: 0;
@@ -61,7 +64,7 @@ a.contactFooter {
     background-color: #ff5100 !important;
 }
 .header-100vh {
-    height: 100vh !important;
+    height: 73.5vh !important;
     padding-top: 73px !important;
 }
 .header-50vh {
@@ -73,7 +76,7 @@ a.contactFooter {
     text-shadow: -1px 1px 1px #ffffff, 1px 1px 1px #ffffff, 1px -1px 1px #ffffff, -1px -1px 1px #ffffff;
 }
 .background-home {
-    height: 100vh;
+    height: 73.5vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
