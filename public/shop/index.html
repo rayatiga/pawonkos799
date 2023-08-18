@@ -1,51 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Belanja | Pawonkos799</title>
-        <meta name="title" content="Belanja | Pawonkos799" />
-        <meta name="keywords" content="pawonkos799, pawonkos, cumi pawonkos799, cumi lumur sambal" />
-        <meta name="description" content="Temukan produk terbaik kami untuk kamu nikmati, 100% bahan alami!" />
-        <meta name="author" content="Pawonkos799" />
-        <link rel="stylesheet" href="https://cdn.rayatiga.com/pawonkos799/css/main.css" />
-        <link rel="stylesheet" href="https://cdn.rayatiga.com/pawonkos799/css/utility.min.css" />
-        <link rel="stylesheet" href="https://cdn.rayatiga.com/pawonkos799/css/icon.css" />
-        <script defer type="text/javascript" src="https://cdn.rayatiga.com/pawonkos799/js/product.js"></script>
-        <script defer type="text/javascript" src="https://cdn.rayatiga.com/pawonkos799/js/main.js"></script>
-        <script defer type="text/javascript" src="https://cdn.rayatiga.com/pawonkos799/js/utility.min.js"></script>
-        <script defer type="text/javascript" src="https://cdn.rayatiga.com/pawonkos799/js/angular.min.js"></script>
-        <link rel="shortcut icon" href="https://cdn.rayatiga.com/pawonkos799/media/favicon.ico" type="image/x-icon" />
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary border fixed-top" id="navBar"></nav>
-        <header class="background-header">
-            <div class="container d-flex header-50vh d-flex flex-column justify-content-center align-items-center text-center">
-                <h1 class="display-4 fw-semibold hero-title">Belanja.</h1>
-                <p class="px-2 acrylic-bg fw-medium text-light rounded-2">Temukan produk terbaik kami untuk kamu nikmati, 100% bahan alami!</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belanja | Pawonkos799</title>
+    <meta name="title" content="Belanja | Pawonkos799" />
+    <meta name="keywords" content="pawonkos799, pawonkos, cumi pawonkos799, cumi lumur sambal" />
+    <meta name="description" content="Temukan produk terbaik kami untuk kamu nikmati, 100% bahan alami!" />
+    <meta name="author" content="Pawonkos799" />
+    <link rel="stylesheet" href="/asset/css/main.css" />
+    <link rel="stylesheet" href="/asset/css/utility.min.css" />
+    <link rel="stylesheet" href="/asset/css/icon.css" />
+    <script defer type="text/javascript" src="/asset/js/product.js"></script>
+    <script defer type="text/javascript" src="/asset/js/main.js"></script>
+    <script defer type="text/javascript" src="/asset/js/utility.min.js"></script>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border fixed-top" id="navBar"></nav>
+    <header class="background-header">
+      <div class="container d-flex header-50vh d-flex flex-column justify-content-center align-items-center text-center">
+        <h1 class="display-4 fw-semibold hero-title">Belanja.</h1>
+        <p class="px-2 acrylic-bg fw-medium text-light rounded-2">Temukan produk terbaik kami untuk kamu nikmati, 100% bahan alami!</p>
+      </div>
+    </header>
+    <main>
+      <section class="py-5 bg-body-tertiary">
+        <div class="container">
+          <div class="mt-3 mb-4 d-lg-flex align-items-center justify-content-between flex-wrap">
+            <span class="fw-medium d-block text-center text-lg-start mb-3 mb-lg-0"><i class="icon icon-archive me-2"></i>Menampilkan: <span id="sumProduct" class="bg-pwk py-1 px-2 rounded-1"></span> produk.</span>
+            <div class="input-group searchBox">
+              <input id="searchProducts" type="text" class="form-control border-secondary" placeholder="Ketik untuk mencari nama produk" aria-label="Ketik untuk mencari nama produk" aria-describedby="button-addon2" />
+              <button class="btn bg-pwk px-3" type="button" id="button-addon2">
+                <i class="icon icon-search"></i>
+              </button>
             </div>
-        </header>
-        <main>
-            <section class="py-5 bg-body-tertiary">
-                <div class="container">
-                    <div class="mt-3 mb-4 d-lg-flex align-items-center justify-content-between flex-wrap">
-                        <span class="fw-medium d-block text-center text-lg-start mb-3 mb-lg-0"><i class="icon icon-archive me-2"></i>Menampilkan: <span id="sumProduct" class="bg-pwk py-1 px-2 rounded-1"></span> produk.</span>
-                        <div class="input-group searchBox">
-                            <input id="searchProducts" type="text" class="form-control border-secondary" placeholder="Ketik untuk mencari nama produk" aria-label="Ketik untuk mencari nama produk" aria-describedby="button-addon2" />
-                            <button class="btn bg-pwk px-3" type="button" id="button-addon2">
-                                <i class="icon icon-search"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="responsiveProductList row row-cols-2 row-cols-lg-4 g-4" id="listProducts"></div>
-                    <span class="text-center mt-5 fw-medium" id="notFound" style="display: none">Produk tidak ditemukan.</span>
-                </div>
-            </section>
-            <button id="scrollTop" class="rounded-1" onclick="scrollTopAction()">
-                <i class="icon icon-arrow-up-square-fill"></i>
-            </button>
-        </main>
-        <footer class="border" id="footer"></footer>
-    </body>
+          </div>
+          <div class="responsiveProductList row row-cols-2 row-cols-lg-4 g-4" id="listProducts"></div>
+          <span class="text-center mt-5 fw-medium" id="notFound" style="display: none">Produk tidak ditemukan.</span>
+        </div>
+      </section>
+      <button id="scrollTop" class="rounded-1" onclick="scrollTopAction()">
+        <i class="icon icon-arrow-up-square-fill"></i>
+      </button>
+    </main>
+    <footer class="border" id="footer"></footer>
+  </body>
 </html>

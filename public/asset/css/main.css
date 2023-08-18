@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/asset/font/work-sans.ttf');
+}
+*::selection {
+  color: #ffffff !important;
+  background-color: #ff5100 !important;
+}
+html body {
+  font-family: 'Work Sans', sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+a.contactFooter {
+  color: #ff5100 !important;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 153, 0, 0.25) !important;
+}
+.no-header-overlap {
+  scroll-margin-top: 72px !important;
+}
+#scrollTop {
+  opacity: 0;
+  right: 25px;
+  bottom: 20px;
+  z-index: 99;
+  position: fixed;
+  color: #ff5100;
+  padding: 3px 8px;
+  transition: 500ms all;
+  background: #ffffff;
+  border: 1px solid #ff5100;
+  outline: 3px solid #ffffff;
+}
+.bg-pwk {
+  color: #ffffff !important;
+  background-color: #ff5100 !important;
+}
+.color-pwk {
+  color: #ff5100 !important;
+}
+.border-pwk {
+  border: 1px solid #ff5100 !important;
+}
+.link-pwk {
+  color: #212529 !important;
+}
+.link-pwk:hover {
+  color: #ffffff !important;
+  background-color: #ff5100 !important;
+}
+.header-100vh {
+  height: 73.5vh !important;
+  padding-top: 73px !important;
+}
+.header-50vh {
+  height: 50vh !important;
+  padding-top: 73px !important;
+}
+.hero-title {
+  color: #ff5100;
+  text-shadow: -1px 1px 1px #ffffff, 1px 1px 1px #ffffff, 1px -1px 1px #ffffff, -1px -1px 1px #ffffff;
+}
+.background-home {
+  height: 73.5vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/asset/media/hero.jpg');
+}
+.background-header {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/asset/media/hero.jpg');
+}
+.vh-screen-header {
+  min-height: calc(100vh - 50vh - 273.75px);
+}
+.card-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/asset/media/hero.jpg');
+}
+.color-testimonial {
+  color: #ff5100;
+  text-shadow: -1px 1px 1px #ffffff, 1px 1px 1px #ffffff, 1px -1px 1px #ffffff, -1px -1px 1px #ffffff;
+}
+.acrylic-bg {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+}
+.searchBox {
+  width: 30em !important;
+}
+@media (max-width: 991px) {
+  .searchBox {
+    width: 100% !important;
+  }
+}
